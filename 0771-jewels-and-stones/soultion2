@@ -1,0 +1,11 @@
+class Solution {
+    func numJewelsInStones(_ jewels: String, _ stones: String) -> Int {
+        var soultion = 0
+          for i in stones {
+                if jewels.contain(i) {
+                    soultion += 1
+                }
+          }
+        return soultion
+    }
+}
